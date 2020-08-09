@@ -52,4 +52,17 @@ hr {
   margin: auto;
   width: 40%;
 }
+
+.message{
+	display: inline-block;
+	background: white;
+	color: #666666;
+	font-family: "Lucida Grande", verdana, sans-serif;
+	font-size: 12px;
+    	line-height: 32px;
+    	border-radius: 10.56px;
+    	padding: 0 16px;
+
+}
+
 </style>
