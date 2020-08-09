@@ -1,0 +1,55 @@
+canvas {
+	width: 100%;
+	height: 100%;
+	position:relative;
+    	z-index:20;
+}
+
+#myCanvas {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.mynotsoboldtitle { font-weight:normal; }
+
+<style>
+
+
+video{
+    outline: 0px;
+    pointer-events: none;
+}
+
+.bgimg {
+  
+  color: white;
+  font-family: "Courier New";
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
